@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <title>portfolio</title>
 </head>
 <link
@@ -15,87 +17,55 @@
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 <body>
   <div class="container py-4">
-    <header class="ph-3 mb-4 border-bottom bg-white">
+    <header class="ph-3 mb-4 border-bottom bg-white btn-lg">
         <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-            <img class="logo" src="assets/90cdeb260df361a39d97540d9c75a814.png" alt="logo">
-            <span class="fs-4">Laeeq Majal</span>
+            <img class="logo animate__animated animate__fadeInLeft" src="assets/90cdeb260df361a39d97540d9c75a814.png" alt="logo">
+            <span class="fs-4 animate__animated animate__fadeInRight">Laeeq Majal</span>
         </a>
       </header>
   </div>
-  <ul class="nav nav-tabs bg-white">
+  <ul class="nav nav-tabs animate__animated animate__zoomIn">
     <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="index.html">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="about.html">About</a>
+      <a class="nav-link bg-dark-subtle" href="about.html">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="contact.html">Contact</a>
+      <a class="nav-link bg-dark-subtle" href="contact.html">Contact</a>
     </li>
   </ul>
-
-  <div class="p-5 mb-4 bg-tertiary rounded-3">
+<section>
+  <div class="p-5 mb-4 bg-tertiary rounded-3 min-vh-100">
     <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold"></h1>
-        <p class="col-md-8 fs-4">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet hic dolorum assumenda quibusdam qui repudiandae vero exercitationem neque deleniti, voluptas libero quisquam, sequi doloremque nulla error! Tempora ut ipsum ad.
-        </p>
-        <button class="btn btn-primary btn-lg" type="button">Example </button>
+        <h1 class="display-5 fw-bold animate__animated animate__bounce">My Developments</h1>
+        <p class="col-md-8 fs-4 bg-white btn-lg animate__animated animate__zoomIn" id="ppd">
+          Being a developer often means working on complex projects that require collaboration and version control. GitHub is an excellent platform for managing these tasks, providing a centralized location for code repositories, issue tracking, and collaboration tools. As a developer, using GitHub allows you to easily manage different versions of your code and work collaboratively with other team members. With features like pull requests and code reviews, you can ensure that changes to the codebase are thoroughly reviewed and tested before being merged into the main branch. Additionally, GitHub provides extensive documentation and a large community of developers, making it an invaluable resource for learning new skills and best practices. Overall, incorporating GitHub into your workflow as a developer can greatly streamline your development process and help you produce higher quality code.
+        </p>  
+        <button class="btn btn-primary btn-lg" type="button"><a class="text-white" href="https://github.com/Reper25">GitHub</button>
     </div>
-    <body>
+  </section>
       <div>
          <div class="wave"></div>
          <div class="wave"></div>
          <div class="wave"></div>
       </div>
-    </body>
+    <footer class="position-absolute w-100">
+        <div class="footer-basic btn-lg">
+          <div class="social"><a href="https://www.instagram.com/laeeqmajal25" target="_blank"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="index.html">Home</a></li>
+              <li class="list-inline-item"><a href="about.html">About</a></li>
+              <li class="list-inline-item"><a href="contact.html">Contact</a></li>
+          </ul>
+          <p class="copyright">Laeeq Majal © 2023</p>
+      </footer>
+  </div>
 </body>
-<footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
 </html>
